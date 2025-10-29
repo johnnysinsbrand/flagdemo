@@ -83,6 +83,7 @@ if __name__ == "__main__":
     # If arguments provided, allow direct flag show
     if len(sys.argv) > 1 and sys.argv[1] == "--flag":
         show_flag()
+         print("Program finished. Have a great day!")
     else:
         try:
             main_loop()
