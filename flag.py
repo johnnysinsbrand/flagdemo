@@ -3,7 +3,7 @@
 import sys
 import datetime
 
-FLAG = ""
+FLAG = "FLAG{silent_decoder_v2}"
 
 def greet():
     print("Welcome to the Silent Decoder demo.")
