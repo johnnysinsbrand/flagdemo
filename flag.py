@@ -44,6 +44,7 @@ def safe_input(prompt):
     try:
         return input(prompt)
     except EOFError:
+        print("\n[Warning] No input received.")
         return ""
 
 def main_loop():
