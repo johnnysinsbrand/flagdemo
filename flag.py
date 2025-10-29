@@ -14,9 +14,9 @@ def show_flag():
         print(f"\nFLAG\n")
 
 def menu():
-    print("Options:")
+    print("\nSelect an option below")
     print("1) Greet")
-    print("2) Show flag")
+     print("2) Reveal the Flag")
     print("3) About")
     print("4) Exit")
 
