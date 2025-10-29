@@ -78,7 +78,7 @@ def demo_operations():
     repeat_message("Hello from demo", 2)
 
 if __name__ == "__main__":
-    print("Starting program...")
+    print("Starting program")
     demo_operations()
     # If arguments provided, allow direct flag show
     if len(sys.argv) > 1 and sys.argv[1] == "--flag":
