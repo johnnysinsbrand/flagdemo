@@ -11,9 +11,7 @@ def greet():
 
 def show_flag():
     # The flag is shown plainly as requested
-    print("\n=== FLAG ===")
-    print(FLAG)
-    print("============\n")
+        print(f"\nFLAG\n")
 
 def menu():
     print("Options:")
